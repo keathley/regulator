@@ -28,7 +28,7 @@ defmodule Regulator.Telemetry do
 
     #### Metadata
       * `:regulator` - The name of the regulator
-      * `:result` - The result of the call, either `:ok`, `:dropped`, `:drop`, or `:ignore`
+      * `:result` - The result of the call, either `:ok`, `:dropped`, `:error`, or `:ignore`
 
   * `[:regulator, :ask, :exception]` - Called if the callback passed to `ask` raises or throws
 
